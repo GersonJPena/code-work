@@ -1,0 +1,595 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Merriweather', serif;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+p{
+	font-family: Oswald;
+	color:  #ffffff;
+	font-size: 145.35px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: center;	
+}
+
+header{
+	background-image: url(Part_Time_restaurant/assets/brooke-lark-200721.jpg);
+	background-size: cover;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	 padding-left: 100px;
+     padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.box1{
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #f5f5f5;
+	box-sizing: border-box;
+	background-color:  rgba(20, 29, 34, 0.67);
+	width: 231px;
+	height: 800px;
+}
+
+.view{
+	border-radius: 3px;
+	background-color:  rgba(225, 86, 14, 0.89);
+	width: 258px;
+	height: 74px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.view img{
+	margin-right: 10px;
+}
+
+.view h1{
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 13.9px;/* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 53.821px;/* Approximation due to font substitution */
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.view2{
+	border-radius: 3px;
+	background-color:  rgba(225, 86, 14, 0.89);
+	width: 258px;
+	height: 74px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	   margin: auto;
+    margin-top: 120px;
+}
+
+.view2 img{
+	margin-right: 10px;
+}
+
+.view2 h1{
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 13.9px;/* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 53.821px;/* Approximation due to font substitution */
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.flexcontainer{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+
+}
+
+.flexcontainer1{
+	/*display: flex;
+	flex-direction: row;
+	justify-content: flex-start;*/
+	background-color: #eae5d6
+}
+
+.flexcontainer2{
+	display: flex;
+	background-color: #23292c;
+
+}
+
+.flexcontainer3{
+	display: flex;
+	background-color: #ffffff
+
+}
+
+.flexcontainer4{
+	display: flex;
+	background: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,1.5)), url(Part_Time_restaurant/assets/cel-lisboa-60315.jpg);
+	background-size: cover;
+	/*width: 2000px;*/
+	height: 850px;
+	
+}
+
+.flexcontainer5{
+	display: flex;
+	position: relative;
+}
+
+.flexcontainer6{
+	display: flex;
+}
+
+
+.flexitem{
+	position: absolute;
+	display: flex;
+	top: 61px;
+	left: 693px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-top: 100px;
+	
+
+}
+
+.container img{
+	background-size: cover;
+	width: 389px;
+	height: 273px;
+	
+}
+
+.select{
+	border-style: solid;
+	border-width: 1px;
+	border-color:  rgba(115, 132, 142, 62);
+	box-sizing: border-box;
+	background-color:  rgba(249, 251, 252, 0.03);
+	width: 448px;
+	margin: auto;
+}
+
+
+.menu2{
+	font-family: OpenSans;
+	color: rgba(115, 132, 142, 62);
+	font-size: 11.01px; Approximation due to font substitution 
+	font-weight: 300;
+	line-height: 4.534px;/* Approximation due to font substitution */
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.menu2 li{
+	border: 1px solid;
+	border-bottom: none;
+    border-top: none;
+    border-left: none
+}
+
+.menu2 a{
+	color: white;
+}
+
+.box2{
+	display: flex;
+	align-items: center;
+	background-color:  #eae5d6;
+	width: 100%;
+	height: 802px;
+	margin-left: 26px;
+}
+
+.div{
+	display: flex;
+    margin: auto
+}
+
+.about{
+	padding-right: 80px;
+}
+
+.box2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Great Vibes', cursive;
+	color:  #23292c;
+	font-size: 59.98px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 6.278px;/* Approximation due to font substitution */
+	text-align: left;
+	padding-left: 80px;
+}
+
+.box2a img{
+	object-fit: cover;
+	display: flex;
+	width: 670px;
+	height: 802px;
+}
+
+.title{
+	float: right;
+	padding-right: 25px;
+}
+
+.box2b img{
+	/*display: flex*/;
+	/*align-items: center;*/
+	object-fit: cover;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #efeff0;
+	box-sizing: border-box;
+	width: 102px;
+	height: 102px;
+	float: left;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.box3{
+	background-color:  #23292c;
+	width: 100%;
+	height: 200px;
+}
+
+.box3 p{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Great Vibes', cursive;
+	color: #eae5d6;
+	font-size: 59.98px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 6.278px;/* Approximation due to font substitution */
+	text-align: center;
+}
+
+/*.box3a{
+
+}*/
+
+.box4{
+	background-color:  #ffffff;
+	width: 100%;
+	height: 550px;
+}
+
+
+.box4b{
+	display: flex;
+}
+
+.box4b h1{
+	font-family: 'Palatino Linotype';
+	color:  #e36630;
+	font-size: 29.99px;
+	font-weight: 400;
+	letter-spacing: -0.75px;
+	line-height: 26.911px;
+	text-align: center;
+}
+
+.box4b img{
+	padding-left: 70px;
+}
+
+
+
+.wrapper .box4b p{
+	font-family: OpenSans;
+	/*font-family: 'Great Vibes', cursive*/
+	color:  #73848e;
+	font-size: 16px; /*Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 30px;/* Approximation due to font substitution 
+	text-align: center;*/
+}
+
+.box4 p{
+	font-family: 'Great Vibes', cursive;
+	color:  black;
+	font-size: 59.98px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 6.278px;/* Approximation due to font substitution */
+	text-align: center;
+}
+
+.box5 p{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Great Vibes', cursive;
+	color: #73848e;
+	font-size: 59.98px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 6.278px;/* Approximation due to font substitution */
+	text-align: center;
+}
+
+.box5a{
+	width: 569px;
+	height: 410px;
+}
+
+.box5a h2{
+	font-family: 'Merriweather', serif;
+	color:  #ffffff;
+	font-size: 22.02px;
+	font-weight: 700;
+	/*line-height: 5.232px;*/
+	text-align: left;
+}
+
+.box5a h3{
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 18.01px;/* Approximation due to font substitution */
+	font-style: italic;
+	/*line-height: 5.232px*/;/* Approximation due to font substitution */
+	text-align: left;
+}
+
+.box5a span{
+	
+}
+
+.box5b{
+	width: 569px;
+	height: 410px;
+}
+
+.box5b h2{
+	font-family: 'Merriweather', serif;
+	color:  #ffffff;
+	font-size: 22.02px;
+	font-weight: 700;
+	/*line-height: 5.232px;*/
+	text-align: left;
+}
+
+.box5b h3{
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 18.01px;/* Approximation due to font substitution */
+	font-style: italic;
+	/*line-height: 5.232px;*//* Approximation due to font substitution */
+	text-align: left;
+}
+
+.menuflex{
+	display: flex;
+}
+.box6{
+	background-color:  #23292c;
+	width: 100%;
+	height: 482px;
+}
+
+.contact{
+	background-color:  #ffffff;
+	width: 570px;
+	height: 473px;
+	position: absolute;
+    margin-left: 426px;
+}
+
+form{
+	width: 511px;
+	height: 45px;
+	display: flex;
+    flex-direction: column
+}
+
+.message{
+	border-style: solid;
+	border-width: 1px;
+	border-color:  rgba(101, 103, 104, 12);
+	box-sizing: border-box;
+	background-color:  #fcfcfc;
+	width: 511px;
+	height: 115px
+}
+
+.message2{
+	background-color:  #ffffff;
+	width: 570px;
+	height: 473px
+	color:  #19242a;
+	font-size: 13.9px;/* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 53.821px;/* Approximation due to font substitution */
+	text-align: center;
+}
+.box6a p{
+	font-size: 60.02px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 53.821px;/* Approximation due to font substitution */
+	color: black;
+	font-family: 'Great Vibes', cursive; 
+}
+
+.text p{
+	font-family: OpenSans;
+	color:  #eae5d6;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-style: italic;
+	line-height: 1.5;/* Approximation due to font substitution */
+	text-align: center;
+}
+
+.map img{
+	object-fit: cover;
+	width: 100%;
+	height: 355px;
+	display: block;
+}
+
+.menu{
+	/*font-family: Open Sans;*/
+	color:  #8a9eae;
+	font-size: 12px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 65px;/* Approximation due to font substitution */
+	text-align: left;
+	list-style: square;
+	margin: auto;
+    margin-left: 50px;
+}
+
+.logo img{
+	padding-left: 40px;
+	padding-top: 15px;
+}
+
+.smalltext{
+	border: solid;
+    width: 150px;
+    border-left: none;
+    border-right: none;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    color: #8a9eae;
+    font-size: 13px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 24px;/* Approximation due to font substitution */
+	text-align: center;
+	margin: auto;
+	padding-bottom: 30px;
+	
+}
+
+.smalltext p{
+	font-size: 10px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 24px;/* Approximation due to font substitution */
+	text-align: center;
+	color: #8a9eae;
+}
+.smalltext i{
+	color:  #cc4f0f;
+	width: 30px;
+	height: 24px;
+	padding-top: 30px;
+}
+ .topicons{
+	color: #8a9eae;
+	/*width: 9px;*/
+	/*height: 17px*/;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding: 40px;
+    /*padding-top: 40px*/
+ }
+
+.icons p{
+	color:  #8a9eae;
+	font-size: 11.01px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 3.139px;/* Approximation due to font substitution */
+	text-align: center;
+}
+
+ul a{
+	text-decoration: none;
+	font-family: Open Sans;
+	color: #8a9eae;
+	font-size: 12px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 16px;/* Approximation due to font substitution */
+	text-align: left;
+	text-transform: uppercase;
+	padding-right: 15px;
+
+}
+
+span.orange{
+	color: #e1560e;
+}
+
+.gus{
+	font-family: 'Merriweather', serif;
+	color:  #283233;
+	font-size: 29.78px;
+	font-weight: 400;
+	letter-spacing: -0.745px;
+	line-height: 26.911px;
+	/*text-align: center;*/
+}
+
+.ex{
+	font-size: 13.9px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 26.911px;/* Approximation due to font substitution */
+
+}
+
+.para{
+	padding-right: 30px;
+}
+
+span.exec{
+	color: #e1560e;
+}
+
+
+span.p1{
+	font-family: OpenSans;
+	color:  #0b2b33;
+	font-size: 18.01px;/* Approximation due to font substitution */
+	font-style: italic;
+	line-height: 15px;/* Approximation due to font substitution */
+	text-align: left;
+}
+
+span.p2{
+	font-family: OpenSans;
+	color:  #73848e;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 18px;/* Approximation due to font substitution */
+	text-align: left;
+}
+
+span.white{
+	color: white;
+}
+
+.home span{
+	color: white;
+}
